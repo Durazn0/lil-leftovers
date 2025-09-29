@@ -1,0 +1,17 @@
+{
+  "name": "Wakana",
+  "last": "Watabe",
+  "description": "I want to fucking die.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 8,
+    "height": 169,
+    "kb_resist": -0.1,
+    "pd": 1,
+    "md": 99
+  },
+  "powers": []
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Yasu Yasui :yasu:",
+    "description": "Praise be.",
+    "powers": [
+        "lil:yasu_attributes",
+        "lil:yasu_commands",
+        "lil:smore",
+        "lil:fragile",
+        "lil:angel",
+        "lil:plague",
+        "lil:easy_mode"
+    ],
+    "icon": "kubejs:yasu",
+    "order": 14,
+    "impact": 3
+}

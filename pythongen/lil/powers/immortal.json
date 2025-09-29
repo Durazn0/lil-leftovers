@@ -1,0 +1,9 @@
+{
+    "name": "Immortal",
+    "description": "You won't die unless you want to",
+    "type": "origins:prevent_death",
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "alexsmobs:gazelle_hurt"
+    }
+}

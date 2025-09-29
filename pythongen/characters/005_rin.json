@@ -1,0 +1,14 @@
+{
+  "name": "Rin",
+  "last": "Rokuhara",
+  "description": "Why can't I just enjoy it?",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 12,
+    "height": 163
+  },
+  "powers": []
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Noise",
+    "description": "Toggle your powers",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:toggle",
+                "power": "lil:pacifist"
+            },
+            {
+                "type": "origins:toggle",
+                "power": "lil:immortal"
+            }
+        ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

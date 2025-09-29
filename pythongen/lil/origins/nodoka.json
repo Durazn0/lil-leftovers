@@ -1,0 +1,13 @@
+{
+    "name": "Nodoka Nagasawa :nodoka:",
+    "description": "",
+    "powers": [
+        "lil:nodoka_attributes",
+        "lil:nodoka_commands",
+        "lil:smore",
+        "lil:fast_swim"
+    ],
+    "icon": "kubejs:nodoka",
+    "order": 16,
+    "impact": 3
+}

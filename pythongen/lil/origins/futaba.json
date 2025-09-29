@@ -1,0 +1,15 @@
+{
+    "name": "Futaba Fukuyama :futaba:",
+    "description": "If a tree falls in the forest...",
+    "powers": [
+        "lil:futaba_attributes",
+        "lil:futaba_commands",
+        "lil:smore",
+        "lil:fireballs",
+        "lil:puke",
+        "lil:random_heal"
+    ],
+    "icon": "kubejs:futaba",
+    "order": 3,
+    "impact": 3
+}

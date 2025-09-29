@@ -1,0 +1,18 @@
+{
+    "name": "Kirin Kanda :kirin:",
+    "description": "AMBATAGOON!!!",
+    "powers": [
+        "lil:kirin_attributes",
+        "lil:kirin_commands",
+        "lil:smore",
+        "lil:athletic",
+        "lil:horse_step",
+        "lil:pink_bra",
+        "lil:firefox",
+        "lil:laser",
+        "lil:ender_heal"
+    ],
+    "icon": "kubejs:kirin",
+    "order": 11,
+    "impact": 3
+}

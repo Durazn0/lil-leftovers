@@ -1,0 +1,17 @@
+{
+    "name": "Fire resistance",
+    "description": "Resist fire damage.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:fire_resistance",
+            "duration": 300,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true,
+            "amplifier": 2
+        }
+    },
+    "interval": 200.0
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Sara Sakakibara :sara:",
+    "description": "",
+    "powers": [
+        "lil:sara_attributes",
+        "lil:sara_commands",
+        "lil:smore",
+        "lil:alcohol",
+        "lil:mother_aura"
+    ],
+    "icon": "kubejs:sara",
+    "order": 21,
+    "impact": 3
+}

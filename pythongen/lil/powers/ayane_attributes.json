@@ -1,0 +1,15 @@
+{
+    "name": "Ayane attributes",
+    "description": "Part of Ayane's features.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "@s",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_total",
+            "value": -0.4
+        }
+    ],
+    "update_health": true,
+    "hidden": true
+}

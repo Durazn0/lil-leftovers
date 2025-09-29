@@ -1,0 +1,21 @@
+{
+    "name": "Pink bra",
+    "description": "THERE IS A THEORY THAT KIRIN'S PINK BRA USED TO BE FROM KARIN!!!",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:ender_chest"
+            }
+        ]
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.loadToolbarActivator",
+        "continuous": true
+    }
+}

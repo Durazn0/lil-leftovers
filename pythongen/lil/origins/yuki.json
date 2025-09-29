@@ -1,0 +1,15 @@
+{
+    "name": "Yuki Yamaguchi :yuki:",
+    "description": "Worried you're gonna get a boo-boo?",
+    "powers": [
+        "lil:yuki_attributes",
+        "lil:yuki_commands",
+        "lil:smore",
+        "lil:mother_aura",
+        "lil:boiling_blood",
+        "lil:waterbottle"
+    ],
+    "icon": "kubejs:yuki",
+    "order": 27,
+    "impact": 3
+}

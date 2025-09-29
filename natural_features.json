@@ -1,0 +1,173 @@
+{
+    "ami": {
+        "hp": 12,
+        "height": 157,
+        "kb_resist": -0.1
+    },
+    "maya": {
+        "hp": 16,
+        "height": 152,
+        "kb_resist": -0.1
+    },
+    "futaba": {
+        "hp": 20,
+        "height": 171,
+        "kb_resist": 0.2,
+        "speed": 0.8
+    },
+    "rin": {
+        "hp": 12,
+        "height": 163
+    },
+    "makoto": {
+        "hp": 16,
+        "height": 159,
+        "speed": 0.9
+    },
+    "miku": {
+        "hp": 14,
+        "height": 153,
+        "speed": 1.2
+    },
+    "ayane": {
+        "hp": 12,
+        "height": 161,
+        "attack": 1.3
+    },
+    "sana": {
+        "hp": 50,
+        "height": 147,
+        "kb_resist": -0.1
+    },
+    "chika": {
+        "hp": 18,
+        "height": 167
+    },
+    "yumi": {
+        "hp": 20,
+        "height": 166,
+        "kb_resist": 0.1
+    },
+    "kirin": {
+        "hp": 10,
+        "height": 158,
+        "kb_resist": -0.05
+    },
+    "noriko": {
+        "hp": 18,
+        "height": 166,
+        "kb_resist": -0.05
+    },
+    "touka": {
+        "hp": 18,
+        "height": 167,
+        "kb_resist": 0.05
+    },
+    "yasu": {
+        "hp": 2,
+        "height": 159,
+        "kb_resist": -0.12
+    },
+    "otoha": {
+        "hp": 16,
+        "height": 169
+    },
+    "nodoka": {
+        "hp": 14,
+        "height": 165,
+        "kb_resist": -0.05
+    },
+    "uta": {
+        "hp": 14,
+        "height": 149
+    },
+    "io": {
+        "hp": 8,
+        "height": 157,
+        "kb_resist": -0.1
+    },
+    "molly": {
+        "hp": 6,
+        "height": 155,
+        "kb_resist": -0.1
+    },
+    "tsuneyo": {
+        "hp": 24,
+        "height": 177,
+        "kb_resist": 0.1
+    },
+    "sara": {
+        "hp": 20,
+        "height": 162
+    },
+    "haruka": {
+        "hp": 24,
+        "height": 173,
+        "kb_resist": 0.15
+    },
+    "kaori": {
+        "hp": 1,
+        "height": 166
+    },
+    "chinami": {
+        "hp": 6,
+        "height": 134,
+        "kb_resist": -0.2
+    },
+    "karin": {
+        "hp": 24,
+        "height": 176,
+        "kb_resist": 0.15
+    },
+    "maki": {
+        "hp": 24,
+        "height": 176,
+        "kb_resist": 0.1
+    },
+    "yuki": {
+        "hp": 18,
+        "height": 175
+    },
+    "niki": {
+        "hp": 30,
+        "height": 170,
+        "kb_resist": 0.05
+    },
+    "wakana": {
+        "hp": 8,
+        "height": 169,
+        "kb_resist": -0.1
+    },
+    "osako": {
+        "hp": 32,
+        "height": 173,
+        "kb_resist": 0.05
+    },
+    "tsubasa": {
+        "hp": 26,
+        "height": 174,
+        "kb_resist": 0.2
+    },
+    "tsukasa": {
+        "hp": 6,
+        "height": 136,
+        "kb_resist": -0.2
+    },
+    "imani": {
+        "hp": 14,
+        "height": 170
+    },
+    "rika": {
+        "hp": 26,
+        "height": 171
+    },
+    "nao": {
+        "hp": 6,
+        "height": 132,
+        "kb_resist": -0.5
+    },
+    "sensei": {
+        "hp": 20,
+        "height": 180
+    }
+}

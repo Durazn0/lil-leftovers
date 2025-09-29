@@ -1,0 +1,12 @@
+{
+    "name": "Rika Rokuhara :rika:",
+    "description": "GOOBER",
+    "powers": [
+        "lil:rika_attributes",
+        "lil:rika_commands",
+        "lil:smore"
+    ],
+    "icon": "kubejs:rika",
+    "order": 34,
+    "impact": 3
+}

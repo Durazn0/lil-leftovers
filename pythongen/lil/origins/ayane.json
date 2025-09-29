@@ -1,0 +1,15 @@
+{
+    "name": "Ayane Amamiya :ayane:",
+    "description": "I love you.",
+    "powers": [
+        "lil:_attributes",
+        "lil:_commands",
+        "lil:smore",
+        "lil:squad_punch",
+        "lil:karate",
+        "lil:fear_of_blood"
+    ],
+    "icon": "kubejs:ayane",
+    "order": 7,
+    "impact": 3
+}

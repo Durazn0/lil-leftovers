@@ -1,0 +1,369 @@
+{
+    "name": "Magic Hat",
+    "description": "Craft it with sticks and dirt, put fruits on it to heal.",
+    "type": "origins:multiple",
+    "craft": {
+        "type": "origins:recipe",
+        "recipe": {
+            "type": "minecraft:crafting_shapeless",
+            "id": "origins:makotos_magic_hat",
+            "ingredients": [
+                {
+                    "item": "minecraft:stick"
+                },
+                {
+                    "item": "minecraft:stick"
+                },
+                [
+                    {
+                        "item": "minecraft:dirt"
+                    },
+                    {
+                        "item": "minecraft:coarse_dirt"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:dirt"
+                    },
+                    {
+                        "item": "minecraft:coarse_dirt"
+                    }
+                ]
+            ],
+            "result": {
+                "item": "kubejs:magic_hat"
+            }
+        }
+    },
+    "small_fruits": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:sweet_berries"
+                },
+                {
+                    "item": "minecraft:glow_berries"
+                },
+                {
+                    "item": "environmental:cherries"
+                },
+                {
+                    "item": "farmersdelight:tomato"
+                },
+                {
+                    "item": "atmospheric:yucca_fruit"
+                }
+            ]
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "kubejs:magic_hat"
+            }
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.zoglin.attack"
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 1.0
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 1,
+                    "saturation": 2
+                }
+            ]
+        }
+    },
+    "medium_fruits": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "atmospheric:passionfruit"
+                },
+                {
+                    "item": "neapolitan:banana"
+                },
+                {
+                    "item": "minecraft:melon_slice"
+                }
+            ]
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "kubejs:magic_hat"
+            }
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.zoglin.attack"
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 2.0
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 2,
+                    "saturation": 1
+                }
+            ]
+        },
+        "result": {
+            "item": "kubejs:blue_essence",
+            "amount": 1
+        }
+    },
+    "sweet_fruits": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:apple"
+                },
+                {
+                    "item": "neapolitan:strawberries"
+                },
+                {
+                    "item": "neapolitan:white_strawberries"
+                },
+                {
+                    "item": "atmospheric:roasted_yucca_fruit"
+                }
+            ]
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "kubejs:magic_hat"
+            }
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.zoglin.attack"
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 2.0
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 3,
+                    "saturation": 1
+                }
+            ]
+        },
+        "result": {
+            "item": "kubejs:blue_essence",
+            "amount": 1
+        }
+    },
+    "beans": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "createcafe:coffee_beans"
+                },
+                {
+                    "item": "createcafe:roasted_coffee"
+                },
+                {
+                    "item": "createcafe:coffee_fruit"
+                },
+                {
+                    "item": "neapolitan:roasted_adzuki_beans"
+                },
+                {
+                    "item": "neapolitan:adzuki_beans"
+                }
+            ]
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "kubejs:magic_hat"
+            }
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.zoglin.attack"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:speed",
+                            "duration": 100,
+                            "is_ambient": false,
+                            "show_particles": false,
+                            "show_icon": true,
+                            "amplifier": 1
+                        },
+                        {
+                            "effect": "minecraft:jump_boost",
+                            "duration": 40,
+                            "is_ambient": false,
+                            "show_particles": false,
+                            "show_icon": true,
+                            "amplifier": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 2,
+                    "saturation": 2
+                }
+            ]
+        }
+    },
+    "gms": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:glistering_melon_slice"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "kubejs:magic_hat"
+            }
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.zoglin.attack"
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 8.0
+                }
+            ]
+        }
+    },
+    "gold": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:golden_apple"
+                },
+                {
+                    "item": "atmospheric:shimmering_passionfruit"
+                }
+            ]
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "kubejs:magic_hat"
+            }
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.zoglin.attack"
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 20.0
+                }
+            ]
+        }
+    },
+    "ega": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:enchanted_golden_apple"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "kubejs:magic_hat"
+            }
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.zoglin.attack"
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 30.0
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 30,
+                    "saturation": 1
+                }
+            ]
+        },
+        "result": {
+            "item": "minecraft:netherite_ingot",
+            "amount": 1
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Plague",
+    "description": "It's fun!",
+    "type": "origins:fire_projectile",
+    "entity_type": "savage_and_ravage:creepie",
+    "cooldown": 40,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 21
+    },
+    "count": 3,
+    "interval": 6,
+    "speed": 2.0,
+    "divergence": 1.0,
+    "sound": "tconstruct:slime_sling",
+    "tag": "{wasOnGround:1,Health:5,Attributes:[{Name:'generic.max_health',Base:5f}]}",
+    "key": {
+        "key": "key.saveToolbarActivator"
+    }
+}

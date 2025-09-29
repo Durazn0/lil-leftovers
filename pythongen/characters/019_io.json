@@ -1,0 +1,17 @@
+{
+  "name": "Io",
+  "last": "Ichimonji",
+  "description": "Novaq's mom.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 8,
+    "height": 157,
+    "kb_resist": -0.1,
+    "pd": 99,
+    "md": 1
+  },
+  "powers": []
+}

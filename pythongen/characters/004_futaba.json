@@ -1,0 +1,18 @@
+{
+  "name": "Futaba",
+  "last": "Fukuyama",
+  "description": "If a tree falls in the forest...",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 8,
+    "height": 171,
+    "kb_resist": 0.2,
+    "speed": 0.8,
+    "pd": 85,
+    "md": 15
+  },
+  "powers": []
+}

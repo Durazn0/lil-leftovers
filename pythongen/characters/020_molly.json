@@ -1,0 +1,17 @@
+{
+  "name": "Molly",
+  "last": "MacCormack",
+  "description": "How do you do this fine Friday morning.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 6,
+    "height": 155,
+    "kb_resist": -0.1,
+    "pd": 5,
+    "md": 95
+  },
+  "powers": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Makoto",
+  "last": "Miyamura",
+  "description": "It's Makoto time!",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 16,
+    "height": 159,
+    "speed": 0.9,
+    "pd": 1,
+    "md": 99
+  },
+  "powers": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Rika",
+  "last": "Rokuhara",
+  "description": "GOOBER",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 26,
+    "height": 171,
+    "pd": 30,
+    "md": 70
+  },
+  "powers": []
+}

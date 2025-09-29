@@ -1,0 +1,8 @@
+{
+    "name": "Spider Queen",
+    "description": "Climb walls! Don't hurt friends! No harm!",
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:collided_horizontally"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Sensei Arakawa :sensei:",
+    "description": "",
+    "powers": [
+        "lil:sensei_attributes",
+        "lil:sensei_commands",
+        "lil:smore"
+    ],
+    "icon": "kubejs:sensei",
+    "order": 36,
+    "impact": 3
+}

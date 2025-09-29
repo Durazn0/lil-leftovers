@@ -1,0 +1,40 @@
+{
+    "name": "High",
+    "description": "Take your meds!",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:nausea",
+                        "duration": 120.0,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true,
+                        "amplifier": 0
+                    },
+                    {
+                        "effect": "minecraft:regeneration",
+                        "duration": 60.0,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true,
+                        "amplifier": 0
+                    },
+                    {
+                        "effect": "minecraft:slowness",
+                        "duration": 200.0,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true,
+                        "amplifier": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "interval": 200
+}

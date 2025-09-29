@@ -1,0 +1,15 @@
+{
+    "name": "Chinami attributes",
+    "description": "Part of Chinami's features.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "@s",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_total",
+            "value": -0.7
+        }
+    ],
+    "update_health": true,
+    "hidden": true
+}

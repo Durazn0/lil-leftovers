@@ -1,0 +1,46 @@
+{
+    "name": "Shiver",
+    "description": "Prevent getting hypothermia",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:play_sound",
+                "sound": "infernalexp:block.glowstone.recharge"
+            },
+            {
+                "type": "origins:heal",
+                "amount": 2.0
+            },
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "toughasnails:ice_resistance",
+                        "duration": 300,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true,
+                        "amplifier": 0
+                    },
+                    {
+                        "effect": "minecraft:slowness",
+                        "duration": 40,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true,
+                        "amplifier": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "cooldown": 300,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

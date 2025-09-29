@@ -1,0 +1,17 @@
+{
+  "name": "Ayane",
+  "last": "Amamiya",
+  "description": "I love you.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 12,
+    "height": 161,
+    "attack": 1.3,
+    "pd": 85,
+    "md": 15
+  },
+  "powers": []
+}

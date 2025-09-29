@@ -1,0 +1,35 @@
+{
+    "name": "Bitch mode",
+    "description": "Take 50% less damage when below 50% life, and deal double damage when under 25% life",
+    "type": "origins:multiple",
+    "attack": {
+        "type": "origins:modify_damage_dealt",
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 5
+            }
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 1.0
+        }
+    },
+    "defense": {
+        "type": "origins:modify_damage_taken",
+        "bientity_condition": {
+            "type": "origins:actor_condition",
+            "condition": {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 9
+            }
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    }
+}

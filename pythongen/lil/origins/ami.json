@@ -1,0 +1,15 @@
+{
+    "name": "Ami Arakawa :ami:",
+    "description": "Just Ami.",
+    "powers": [
+        "lil:ami_attributes",
+        "lil:ami_commands",
+        "lil:smore",
+        "lil:squad_punch",
+        "lil:flavor_beam",
+        "lil:fire_resistance"
+    ],
+    "icon": "kubejs:ami",
+    "order": 1,
+    "impact": 3
+}

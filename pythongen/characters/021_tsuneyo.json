@@ -1,0 +1,17 @@
+{
+  "name": "Tsuneyo",
+  "last": "Tojo",
+  "description": "Noodles.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 24,
+    "height": 177,
+    "kb_resist": 0.1,
+    "pd": 99,
+    "md": 1
+  },
+  "powers": []
+}

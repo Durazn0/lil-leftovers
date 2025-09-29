@@ -1,0 +1,16 @@
+{
+    "name": "Yumi Yamaguchi :yumi:",
+    "description": "Fuck off.",
+    "powers": [
+        "lil:yumi_attributes",
+        "lil:yumi_commands",
+        "lil:smore",
+        "lil:fast_swim",
+        "lil:waterbottle",
+        "lil:boiling_blood",
+        "lil:shiver"
+    ],
+    "icon": "kubejs:yumi",
+    "order": 10,
+    "impact": 3
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Fear of blood",
+    "description": "Lose vision when hitting a player.",
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:blindness",
+                "duration": 100,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true,
+                "amplifier": 0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 20,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true,
+                "amplifier": 0
+            }
+        ]
+    },
+    "cooldown": 80,
+    "target_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+    }
+}

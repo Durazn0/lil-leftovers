@@ -1,0 +1,33 @@
+{
+    "name": "Trauma",
+    "description": "Getting attacked will agitate and slow you down.",
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:slowness",
+                "duration": 60,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true,
+                "amplifier": 1
+            },
+            {
+                "effect": "alexsmobs:earthquake",
+                "duration": 45,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true,
+                "amplifier": 0
+            }
+        ]
+    },
+    "cooldown": 60,
+    "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:living"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Molly MacCormack :molly:",
+    "description": "How do you do this fine Friday morning.",
+    "powers": [
+        "lil:molly_attributes",
+        "lil:molly_commands",
+        "lil:smore"
+    ],
+    "icon": "kubejs:molly",
+    "order": 19,
+    "impact": 3
+}

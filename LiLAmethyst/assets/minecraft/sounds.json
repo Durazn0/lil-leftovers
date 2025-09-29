@@ -1,0 +1,4 @@
+{
+"entity.creeper.primed": {"replace":true, "category": "hostile", "sounds": ["random/creeper_fuse"]},
+"ui.button.click": {"replace":true, "category": "master", "sounds": ["random/menu_click"]}
+}

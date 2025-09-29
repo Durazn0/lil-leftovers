@@ -1,0 +1,17 @@
+{
+    "name": "Skulls",
+    "description": "Shoot 5 wither skulls!",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:wither_skull",
+    "cooldown": 140,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 15
+    },
+    "count": 5,
+    "interval": 3,
+    "speed": 2.0,
+    "divergence": 1.0,
+    "sound": "minecraft:entity.blaze.shoot",
+    "key": "key.origins.primary_active"
+}

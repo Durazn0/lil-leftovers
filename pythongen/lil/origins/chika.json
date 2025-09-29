@@ -1,0 +1,16 @@
+{
+    "name": "Chika Chosokabe :chika:",
+    "description": "Arf.",
+    "powers": [
+        "lil:chika_attributes",
+        "lil:chika_commands",
+        "lil:smore",
+        "lil:flavor_beam",
+        "lil:arf",
+        "lil:bitch_mode",
+        "lil:lucid_dream"
+    ],
+    "icon": "kubejs:chika",
+    "order": 9,
+    "impact": 3
+}

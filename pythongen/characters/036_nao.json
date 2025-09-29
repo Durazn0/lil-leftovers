@@ -1,0 +1,17 @@
+{
+  "name": "Nao",
+  "last": "Kadowaki",
+  "description": "!!!!!",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 6,
+    "height": 132,
+    "kb_resist": -0.5,
+    "pd": 40,
+    "md": 60
+  },
+  "powers": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Nodoka",
+  "last": "Nagasawa",
+  "description": "",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 14,
+    "height": 165,
+    "kb_resist": -0.05,
+    "pd": 1,
+    "md": 99
+  },
+  "powers": []
+}

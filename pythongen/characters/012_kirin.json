@@ -1,0 +1,17 @@
+{
+  "name": "Kirin",
+  "last": "Kanda",
+  "description": "AMBATAGOON!!!",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 10,
+    "height": 158,
+    "kb_resist": -0.05,
+    "pd": 95,
+    "md": 5
+  },
+  "powers": ["teststudy"]
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Horse step",
+    "description": "You can walk and run over blocks!",
+    "type": "origins:simple"
+}

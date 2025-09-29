@@ -1,0 +1,73 @@
+{
+    "name": "Lucid dream",
+    "description": "Toggle extra melee damage, but you will get weaker from projectiles and explosions",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.saveToolbarActivator"
+        }
+    },
+    "melee": {
+        "type": "origins:modify_damage_dealt",
+        "bientity_condition": {
+            "type": "origins:actor_condition",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle"
+            }
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.3
+        },
+        "self_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.hurt"
+        }
+    },
+    "proj": {
+        "type": "origins:modify_damage_taken",
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle"
+            }
+        },
+        "damage_condition": {
+            "type": "origins:projectile"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.3
+        },
+        "self_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.wolf.hurt"
+        }
+    },
+    "expl": {
+        "type": "origins:modify_damage_taken",
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle"
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "explosion"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.3
+        },
+        "self_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.wolf.death"
+        }
+    }
+}

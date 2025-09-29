@@ -1,0 +1,15 @@
+{
+    "name": "Otoha Okakura :otoha:",
+    "description": "POGGERS",
+    "powers": [
+        "lil:otoha_attributes",
+        "lil:otoha_commands",
+        "lil:smore",
+        "lil:wife_puncher",
+        "lil:domestic_violence",
+        "lil:music"
+    ],
+    "icon": "kubejs:otoha",
+    "order": 15,
+    "impact": 3
+}

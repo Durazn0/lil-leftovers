@@ -1,0 +1,19 @@
+{
+    "name": "Ami",
+    "last": "Arakawa",
+    "description": "omg",
+    "meta": {
+        "description": "",
+        "goal": ""
+    },
+    "attributes": {
+        "hp": 12,
+        "height": 157,
+        "kb_resist": -0.1,
+        "pd": 30,
+        "md": 70,
+        "pr": 0,
+        "mr": 0
+    },
+    "powers": []
+}

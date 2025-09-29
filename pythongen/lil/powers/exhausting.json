@@ -1,0 +1,11 @@
+{
+    "name": "Exhausting",
+    "description": "Exhausting",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Myaa",
+        "operation": "multiply_base",
+        "value": 0.2
+    },
+    "hidden": true
+}

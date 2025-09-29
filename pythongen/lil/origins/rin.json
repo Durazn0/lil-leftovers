@@ -1,0 +1,15 @@
+{
+    "name": "Rin Rokuhara :rin:",
+    "description": "Why can't I just enjoy it?",
+    "powers": [
+        "lil:rin_attributes",
+        "lil:rin_commands",
+        "lil:smore",
+        "lil:skulls",
+        "lil:random_heal",
+        "lil:rokuhara_invisibility"
+    ],
+    "icon": "kubejs:rin",
+    "order": 4,
+    "impact": 3
+}

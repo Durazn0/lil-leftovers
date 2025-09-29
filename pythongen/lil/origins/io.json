@@ -1,0 +1,15 @@
+{
+    "name": "Io Ichimonji :io:",
+    "description": "Novaq's mom.",
+    "powers": [
+        "lil:io_attributes",
+        "lil:io_commands",
+        "lil:smore",
+        "lil:high",
+        "lil:drug",
+        "lil:heal"
+    ],
+    "icon": "kubejs:io",
+    "order": 18,
+    "impact": 3
+}

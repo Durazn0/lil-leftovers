@@ -1,0 +1,16 @@
+{
+  "name": "Chika",
+  "last": "Chosokabe",
+  "description": "Arf.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 18,
+    "height": 167,
+    "pd": 95,
+    "md": 5
+  },
+  "powers": []
+}

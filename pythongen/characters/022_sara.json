@@ -1,0 +1,16 @@
+{
+  "name": "Sara",
+  "last": "Sakakibara",
+  "description": "",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 20,
+    "height": 162,
+    "pd": 25,
+    "md": 75
+  },
+  "powers": []
+}

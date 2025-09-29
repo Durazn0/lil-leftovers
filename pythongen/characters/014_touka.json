@@ -1,0 +1,17 @@
+{
+  "name": "Touka",
+  "last": "Tsukioka",
+  "description": "marshmallow.mp3",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 18,
+    "height": 167,
+    "kb_resist": 0.05,
+    "pd": 90,
+    "md": 10
+  },
+  "powers": []
+}

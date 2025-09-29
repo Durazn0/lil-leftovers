@@ -1,0 +1,17 @@
+{
+  "name": "Chinami",
+  "last": "Chosokabe",
+  "description": "*allergic reaction noises*",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 6,
+    "height": 134,
+    "kb_resist": -0.2,
+    "pd": 90,
+    "md": 10
+  },
+  "powers": []
+}

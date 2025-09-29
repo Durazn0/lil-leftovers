@@ -1,0 +1,15 @@
+{
+    "name": "Niki attributes",
+    "description": "Part of Niki's features.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "@s",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_total",
+            "value": 0.5
+        }
+    ],
+    "update_health": true,
+    "hidden": true
+}

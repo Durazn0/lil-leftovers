@@ -1,0 +1,17 @@
+{
+    "name": "Fireballs",
+    "description": "Shoot 3 fireballs!",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:fireball",
+    "cooldown": 140,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 7
+    },
+    "count": 3,
+    "interval": 4,
+    "speed": 2.0,
+    "divergence": 1.0,
+    "sound": "minecraft:entity.blaze.shoot",
+    "key": "key.origins.primary_active"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Kaori",
+  "last": "Kadowaki",
+  "description": "Friendburger!",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 1,
+    "height": 166,
+    "pd": 20,
+    "md": 80
+  },
+  "powers": []
+}

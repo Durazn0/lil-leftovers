@@ -1,0 +1,20 @@
+{
+    "name": "Rokuhara invisibility",
+    "description": "Be invisible to your enemies!",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.saveToolbarActivator"
+        }
+    },
+    "invisibility": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    }
+}

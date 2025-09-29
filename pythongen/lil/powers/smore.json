@@ -1,0 +1,16 @@
+{
+    "name": "Smore",
+    "description": "YES CHEF!",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "delightful:smore"
+        }
+    },
+    "hidden": true,
+    "entity_action": {
+        "type": "origins:set_on_fire",
+        "duration": 10
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Sana attributes",
+    "description": "Part of Sana's features.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "@s",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_total",
+            "value": 1.5
+        }
+    ],
+    "update_health": true,
+    "hidden": true
+}

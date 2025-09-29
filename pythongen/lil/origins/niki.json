@@ -1,0 +1,14 @@
+{
+    "name": "Niki Nakayama :niki:",
+    "description": "Be honest. I won't get mad.",
+    "powers": [
+        "lil:niki_attributes",
+        "lil:niki_commands",
+        "lil:smore",
+        "lil:sausage_fest",
+        "lil:captivation"
+    ],
+    "icon": "kubejs:niki",
+    "order": 28,
+    "impact": 3
+}

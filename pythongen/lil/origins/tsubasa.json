@@ -1,0 +1,13 @@
+{
+    "name": "Tsubasa Tsukioka :tsubasa:",
+    "description": "",
+    "powers": [
+        "lil:tsubasa_attributes",
+        "lil:tsubasa_commands",
+        "lil:smore",
+        "lil:mother_aura"
+    ],
+    "icon": "kubejs:tsubasa",
+    "order": 31,
+    "impact": 3
+}

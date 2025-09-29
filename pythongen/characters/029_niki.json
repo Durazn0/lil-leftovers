@@ -1,0 +1,17 @@
+{
+  "name": "Niki",
+  "last": "Nakayama",
+  "description": "Be honest. I won't get mad.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 30,
+    "height": 170,
+    "kb_resist": 0.05,
+    "pd": 25,
+    "md": 75
+  },
+  "powers": []
+}

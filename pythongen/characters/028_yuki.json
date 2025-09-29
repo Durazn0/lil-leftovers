@@ -1,0 +1,16 @@
+{
+  "name": "Yuki",
+  "last": "Yamaguchi",
+  "description": "Worried you're gonna get a boo-boo?",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 18,
+    "height": 175,
+    "pd": 65,
+    "md": 35
+  },
+  "powers": []
+}

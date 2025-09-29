@@ -1,0 +1,25 @@
+{
+    "name": "Heal",
+    "description": "Recover 5 hearts",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:heal",
+                "amount": 10.0
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.turtle.lay_egg"
+            }
+        ]
+    },
+    "cooldown": 300,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

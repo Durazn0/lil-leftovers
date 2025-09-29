@@ -1,0 +1,43 @@
+{
+    "name": "Bluejay",
+    "description": "Can't die by falling",
+    "type": "origins:prevent_death",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:item.axe.wax_off"
+            },
+            {
+                "type": "origins:heal",
+                "amount": 8.0
+            },
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:blindness",
+                        "duration": 30,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true,
+                        "amplifier": 0
+                    },
+                    {
+                        "effect": "minecraft:regeneration",
+                        "duration": 30,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true,
+                        "amplifier": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

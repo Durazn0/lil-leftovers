@@ -1,0 +1,23 @@
+{
+    "name": "Stab back",
+    "description": "Damage back attackers!",
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 4,
+        "source": {
+            "name": "thorns",
+            "bypasses_armor": true,
+            "unblockable": true
+        }
+    },
+    "cooldown": 100,
+    "damage_condition": {
+        "type": "origins:projectile",
+        "inverted": true
+    },
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 1
+    }
+}

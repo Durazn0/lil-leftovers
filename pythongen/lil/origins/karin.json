@@ -1,0 +1,16 @@
+{
+    "name": "Karin Kanda :karin:",
+    "description": "C-C-Cute!?!?",
+    "powers": [
+        "lil:karin_attributes",
+        "lil:karin_commands",
+        "lil:smore",
+        "lil:athletic",
+        "lil:firefox",
+        "lil:laser",
+        "lil:ender_heal"
+    ],
+    "icon": "kubejs:karin",
+    "order": 25,
+    "impact": 3
+}

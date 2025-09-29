@@ -1,0 +1,14 @@
+{
+    "name": "Haruka Hamasaki :haruka:",
+    "description": "Boobs!",
+    "powers": [
+        "lil:haruka_attributes",
+        "lil:haruka_commands",
+        "lil:smore",
+        "lil:alcohol",
+        "lil:caffeine"
+    ],
+    "icon": "kubejs:haruka",
+    "order": 22,
+    "impact": 3
+}

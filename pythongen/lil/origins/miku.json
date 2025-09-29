@@ -1,0 +1,16 @@
+{
+    "name": "Miku Maruyama :miku:",
+    "description": "Champion of justice and soccer!",
+    "powers": [
+        "lil:miku_attributes",
+        "lil:miku_commands",
+        "lil:smore",
+        "lil:athletic",
+        "lil:horse_step",
+        "lil:trauma",
+        "lil:fast_swim"
+    ],
+    "icon": "kubejs:miku",
+    "order": 6,
+    "impact": 3
+}

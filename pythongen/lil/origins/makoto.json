@@ -1,0 +1,15 @@
+{
+    "name": "Makoto Miyamura :makoto:",
+    "description": "It's Makoto time!",
+    "powers": [
+        "lil:makoto_attributes",
+        "lil:makoto_commands",
+        "lil:smore",
+        "lil:bluejay",
+        "lil:bacon",
+        "lil:magic_hat"
+    ],
+    "icon": "kubejs:makoto",
+    "order": 5,
+    "impact": 3
+}

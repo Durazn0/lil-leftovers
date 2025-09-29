@@ -1,0 +1,20 @@
+{
+    "name": "Mother aura",
+    "description": "Regenerate people around you.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:heal",
+                "amount": 3.0,
+                "condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:player"
+                }
+            }
+        }
+    },
+    "interval": 90.0
+}

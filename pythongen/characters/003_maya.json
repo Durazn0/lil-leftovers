@@ -1,0 +1,17 @@
+{
+  "name": "Maya",
+  "last": "Makinami",
+  "description": "You are disgusting.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 16,
+    "height": 152,
+    "kb_resist": -0.1,
+    "pd": 45,
+    "md": 55
+  },
+  "powers": []
+}

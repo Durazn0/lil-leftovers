@@ -1,0 +1,15 @@
+{
+    "name": "Noriko Nakayama :noriko:",
+    "description": "Ah! Onii-chan!",
+    "powers": [
+        "lil:noriko_attributes",
+        "lil:noriko_commands",
+        "lil:smore",
+        "lil:imouto",
+        "lil:nekoyama",
+        "lil:stab_back"
+    ],
+    "icon": "kubejs:noriko",
+    "order": 12,
+    "impact": 3
+}

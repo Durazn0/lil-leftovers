@@ -1,0 +1,17 @@
+{
+  "name": "Miku",
+  "last": "Maruyama",
+  "description": "Champion of justice and soccer!",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 14,
+    "height": 153,
+    "speed": 1.2,
+    "pd": 99,
+    "md": 1
+  },
+  "powers": []
+}

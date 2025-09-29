@@ -1,0 +1,12 @@
+{
+    "name": "Chinami Chosokabe :chinami:",
+    "description": "*allergic reaction noises*",
+    "powers": [
+        "lil:chinami_attributes",
+        "lil:chinami_commands",
+        "lil:smore"
+    ],
+    "icon": "kubejs:chinami",
+    "order": 24,
+    "impact": 3
+}

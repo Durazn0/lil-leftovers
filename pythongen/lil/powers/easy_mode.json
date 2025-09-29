@@ -1,0 +1,27 @@
+{
+    "name": "Easy mode",
+    "description": "Ignore some difficulties.",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:resistance",
+                "duration": 300,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true,
+                "amplifier": 1
+            },
+            {
+                "effect": "toughasnails:climate_clemency",
+                "duration": 300,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true,
+                "amplifier": 0
+            }
+        ]
+    },
+    "interval": 200.0
+}

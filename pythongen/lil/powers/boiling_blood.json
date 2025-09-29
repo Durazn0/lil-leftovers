@@ -1,0 +1,34 @@
+{
+    "name": "Boiling blood",
+    "description": "Yamaguchi's fury will make you win battles or adventure into the sea.",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": true,
+        "key": {
+            "key": "key.saveToolbarActivator"
+        }
+    },
+    "ignore": {
+        "type": "origins:ignore_water",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle",
+            "inverted": true
+        }
+    },
+    "attack": {
+        "type": "origins:modify_damage_dealt",
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle"
+            }
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.45
+        }
+    }
+}

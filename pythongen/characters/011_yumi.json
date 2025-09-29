@@ -1,0 +1,17 @@
+{
+  "name": "Yumi",
+  "last": "Yamaguchi",
+  "description": "Fuck off.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 20,
+    "height": 166,
+    "kb_resist": 0.1,
+    "pd": 85,
+    "md": 15
+  },
+  "powers": []
+}

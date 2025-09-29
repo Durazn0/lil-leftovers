@@ -1,0 +1,17 @@
+{
+  "name": "Tsubasa",
+  "last": "Tsukioka",
+  "description": "",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 26,
+    "height": 174,
+    "kb_resist": 0.2,
+    "pd": 10,
+    "md": 90
+  },
+  "powers": []
+}

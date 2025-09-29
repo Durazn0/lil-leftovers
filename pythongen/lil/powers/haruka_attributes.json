@@ -1,0 +1,15 @@
+{
+    "name": "Haruka attributes",
+    "description": "Part of Haruka's features.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "@s",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_total",
+            "value": 0.2
+        }
+    ],
+    "update_health": true,
+    "hidden": true
+}

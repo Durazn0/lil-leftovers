@@ -1,0 +1,14 @@
+{
+    "name": "Angel",
+    "description": "",
+    "type": "origins:multiple",
+    "flight": {
+        "type": "origins:creative_flight"
+    },
+    "blood": {
+        "type": "origins:prevent_elytra_flight"
+    },
+    "sin": {
+        "type": "origins:keep_inventory"
+    }
+}

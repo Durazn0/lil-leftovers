@@ -1,0 +1,12 @@
+{
+    "name": "Tsukasa Tsukioka :tsukasa:",
+    "description": "I love poor people <3",
+    "powers": [
+        "lil:tsukasa_attributes",
+        "lil:tsukasa_commands",
+        "lil:smore"
+    ],
+    "icon": "kubejs:tsukasa",
+    "order": 32,
+    "impact": 3
+}

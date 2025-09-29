@@ -1,0 +1,17 @@
+{
+  "name": "Yasu",
+  "last": "Yasui",
+  "description": "Praise be.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 2,
+    "height": 159,
+    "kb_resist": -0.12,
+    "pd": 0,
+    "md": 0
+  },
+  "powers": []
+}

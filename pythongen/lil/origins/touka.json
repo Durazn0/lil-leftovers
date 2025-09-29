@@ -1,0 +1,11 @@
+{
+    "name": "Touka Tsukioka :touka:",
+    "description": "marshmallow.mp3",
+    "powers": [
+        "lil:touka_attributes",
+        "lil:touka_commands"
+    ],
+    "icon": "kubejs:touka",
+    "order": 13,
+    "impact": 3
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Uta Ushibori :uta:",
+    "description": "FLAVOR BEAM!!!!",
+    "powers": [
+        "lil:uta_attributes",
+        "lil:uta_commands",
+        "lil:smore",
+        "lil:flavor_beam"
+    ],
+    "icon": "kubejs:uta",
+    "order": 17,
+    "impact": 3
+}

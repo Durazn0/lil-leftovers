@@ -1,0 +1,17 @@
+{
+  "name": "Karin",
+  "last": "Kanda",
+  "description": "C-C-Cute!?!?",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 24,
+    "height": 176,
+    "kb_resist": 0.15,
+    "pd": 40,
+    "md": 60
+  },
+  "powers": []
+}

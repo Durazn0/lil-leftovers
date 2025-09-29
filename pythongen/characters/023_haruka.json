@@ -1,0 +1,17 @@
+{
+  "name": "Haruka",
+  "last": "Hamasaki",
+  "description": "Boobs!",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 24,
+    "height": 173,
+    "kb_resist": 0.15,
+    "pd": 60,
+    "md": 40
+  },
+  "powers": []
+}

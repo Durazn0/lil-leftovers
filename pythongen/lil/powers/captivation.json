@@ -1,0 +1,30 @@
+{
+    "name": "Captivation",
+    "description": "Melt people around you.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:area_of_effect",
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:set_on_fire",
+                        "duration": 3
+                    },
+                    "condition": {
+                        "type": "origins:living"
+                    }
+                }
+            }
+        ]
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}

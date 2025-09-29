@@ -1,0 +1,16 @@
+{
+  "name": "Otoha",
+  "last": "Okakura",
+  "description": "POGGERS",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 16,
+    "height": 169,
+    "pd": 20,
+    "md": 80
+  },
+  "powers": []
+}

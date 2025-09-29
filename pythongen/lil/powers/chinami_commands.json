@@ -1,0 +1,35 @@
+{
+    "name": "Chinami commands",
+    "description": "Part of Chinami's features.",
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:base 0.724324 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:step_height 1.41791 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:reach 1 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:jump_height 1.2 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @s run spreadplayers ~ ~ 1200 1200 false @s"
+            }
+        ]
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    },
+    "hidden": true
+}

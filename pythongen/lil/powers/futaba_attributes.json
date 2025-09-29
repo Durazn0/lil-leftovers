@@ -1,0 +1,15 @@
+{
+    "name": "Futaba attributes",
+    "description": "Part of Futaba's features.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "@s",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_total",
+            "value": -0.6
+        }
+    ],
+    "update_health": true,
+    "hidden": true
+}

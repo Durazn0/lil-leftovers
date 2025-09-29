@@ -1,0 +1,17 @@
+{
+  "name": "Maki",
+  "last": "Miyamura",
+  "description": "Heh, weiner.",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 24,
+    "height": 176,
+    "kb_resist": 0.1,
+    "pd": 50,
+    "md": 50
+  },
+  "powers": []
+}

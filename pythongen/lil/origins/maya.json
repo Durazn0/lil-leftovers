@@ -1,0 +1,15 @@
+{
+    "name": "Maya Makinami :maya:",
+    "description": "You are disgusting.",
+    "powers": [
+        "lil:maya_attributes",
+        "lil:maya_commands",
+        "lil:smore",
+        "lil:squad_punch",
+        "lil:shiver",
+        "lil:exhausting"
+    ],
+    "icon": "kubejs:maya",
+    "order": 2,
+    "impact": 3
+}

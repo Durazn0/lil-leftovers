@@ -1,0 +1,12 @@
+{
+    "name": "Wakana Watabe :wakana:",
+    "description": "I want to fucking die.",
+    "powers": [
+        "lil:wakana_attributes",
+        "lil:wakana_commands",
+        "lil:smore"
+    ],
+    "icon": "kubejs:wakana",
+    "order": 29,
+    "impact": 3
+}

@@ -1,0 +1,104 @@
+{
+    "name": "Nekoyama",
+    "description": "Catgirl mode!",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "retain_state": false,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "key": {
+            "key": "key.saveToolbarActivator"
+        }
+    },
+    "timer": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_cooldown"
+        },
+        "falling_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:speed",
+                "duration": 300,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": true,
+                "amplifier": 2
+            }
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 800,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 6
+        }
+    },
+    "jump": {
+        "type": "origins:modify_jump",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": ">",
+            "compare_to": 500
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 0.3
+        },
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "entity.cat.purreow"
+        }
+    },
+    "hurt": {
+        "type": "origins:self_action_when_hit",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": ">",
+            "compare_to": 500
+        },
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "entity.cat.hurt"
+        },
+        "cooldown": 1
+    },
+    "hit": {
+        "type": "origins:modify_falling",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": ">",
+            "compare_to": 500
+        },
+        "velocity": 0.14,
+        "take_fall_damage": false
+    },
+    "break_speed": {
+        "type": "origins:modify_jump",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": ">",
+            "compare_to": 200
+        },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.25
+        }
+    }
+}

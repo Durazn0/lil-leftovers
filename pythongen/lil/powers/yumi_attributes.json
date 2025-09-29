@@ -1,0 +1,15 @@
+{
+    "name": "Yumi attributes",
+    "description": "Part of Yumi's features.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "@s",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_total",
+            "value": 0.0
+        }
+    ],
+    "update_health": true,
+    "hidden": true
+}

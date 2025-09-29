@@ -1,0 +1,12 @@
+{
+    "name": "Tsuneyo Tojo :tsuneyo:",
+    "description": "Noodles.",
+    "powers": [
+        "lil:tsuneyo_attributes",
+        "lil:tsuneyo_commands",
+        "lil:smore"
+    ],
+    "icon": "kubejs:tsuneyo",
+    "order": 20,
+    "impact": 3
+}

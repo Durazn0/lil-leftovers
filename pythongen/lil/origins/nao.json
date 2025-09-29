@@ -1,0 +1,12 @@
+{
+    "name": "Nao  :nao:",
+    "description": "!!!!!",
+    "powers": [
+        "lil:nao_attributes",
+        "lil:nao_commands",
+        "lil:smore"
+    ],
+    "icon": "kubejs:nao",
+    "order": 35,
+    "impact": 3
+}

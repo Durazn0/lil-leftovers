@@ -1,0 +1,17 @@
+{
+  "name": "Sana",
+  "last": "Sakakibara",
+  "description": "SANAAAAA!!!",
+  "meta": {
+    "actual_description": "",
+    "goal": ""
+  },
+  "attributes": {
+    "hp": 50,
+    "height": 147,
+    "kb_resist": -0.1,
+    "pd": 90,
+    "md": 10
+  },
+  "powers": []
+}

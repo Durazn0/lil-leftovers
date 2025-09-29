@@ -1,0 +1,13 @@
+{
+    "name": "Osako Osaka :osako:",
+    "description": "",
+    "powers": [
+        "lil:osako_attributes",
+        "lil:osako_commands",
+        "lil:smore",
+        "lil:karate"
+    ],
+    "icon": "kubejs:osako",
+    "order": 30,
+    "impact": 3
+}

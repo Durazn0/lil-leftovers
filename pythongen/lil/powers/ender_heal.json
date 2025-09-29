@@ -1,0 +1,24 @@
+{
+    "name": "Ender Heal",
+    "description": "Pick an ender chest and right click into orange essence to heal",
+    "type": "origins:item_on_item",
+    "using_item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:ender_chest"
+        }
+    },
+    "on_item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "kubejs:orange_essence"
+        }
+    },
+    "on_item_action": {
+        "type": "origins:consume"
+    },
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "infernalexp:block.glowstone.recharge"
+    }
+}

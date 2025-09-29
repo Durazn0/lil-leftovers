@@ -1,0 +1,42 @@
+{
+    "name": "Imouto",
+    "description": "Send someone to sleep!",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "retain_state": false,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "key": {
+            "key": "key.loadToolbarActivator"
+        }
+    },
+    "timer": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "say @a BITCH"
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "say @a BITCHHHHHH"
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 20,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 8
+        }
+    }
+}

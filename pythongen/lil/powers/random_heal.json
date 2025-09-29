@@ -1,0 +1,13 @@
+{
+    "name": "Random heal",
+    "description": "35% chance of healing when hit",
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+        "type": "origins:chance",
+        "action": {
+            "type": "origins:heal",
+            "amount": 8.0
+        },
+        "chance": 0.35
+    }
+}

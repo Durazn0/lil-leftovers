@@ -1,0 +1,24 @@
+{
+    "name": "Bacon",
+    "description": "Enable damage for your next hit.",
+    "type": "origins:multiple",
+    "active": {
+        "type": "origins:active_self",
+        "cooldown": 20,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:attack 1"
+        },
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 0
+        }
+    },
+    "hit": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scale set pehkui:attack 0"
+        }
+    }
+}

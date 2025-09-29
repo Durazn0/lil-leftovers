@@ -1,0 +1,13 @@
+{
+    "name": "Maki Miyamura :maki:",
+    "description": "Heh, weiner.",
+    "powers": [
+        "lil:maki_attributes",
+        "lil:maki_commands",
+        "lil:smore",
+        "lil:mother_aura"
+    ],
+    "icon": "kubejs:maki",
+    "order": 26,
+    "impact": 3
+}

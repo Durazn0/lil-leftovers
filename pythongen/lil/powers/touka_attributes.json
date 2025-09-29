@@ -1,0 +1,15 @@
+{
+    "name": "Touka attributes",
+    "description": "Part of Touka's features.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "name": "@s",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_total",
+            "value": -0.1
+        }
+    ],
+    "update_health": true,
+    "hidden": true
+}

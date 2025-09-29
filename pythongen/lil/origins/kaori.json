@@ -1,0 +1,13 @@
+{
+    "name": "Kaori Kadowaki :kaori:",
+    "description": "Friendburger!",
+    "powers": [
+        "lil:kaori_attributes",
+        "lil:kaori_commands",
+        "lil:smore",
+        "lil:spider_queen"
+    ],
+    "icon": "kubejs:kaori",
+    "order": 23,
+    "impact": 3
+}

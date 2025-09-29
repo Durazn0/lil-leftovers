@@ -1,0 +1,16 @@
+{
+    "name": "Sana Sakakibara :sana:",
+    "description": "SANAAAAA!!!",
+    "powers": [
+        "lil:sana_attributes",
+        "lil:sana_commands",
+        "lil:smore",
+        "lil:easy_mode",
+        "lil:fragile",
+        "lil:squad_punch",
+        "lil:fred"
+    ],
+    "icon": "kubejs:sana",
+    "order": 8,
+    "impact": 3
+}
