@@ -1,1 +1,0 @@
-Loading emojiful with too many emojis will crash the client (Most likely being rate limited from Discord's part, I suggest loading emojis from the client with another mod, or sticking with just a few)
