@@ -6,7 +6,7 @@ Here are some various files that may help with any kind of LiL related tinkering
 - `LiLAmethyst` Resource pack that updates an older LiL resource pack focusing more in the GUI.
 - `LiLAmethyst_gfiefiles` Source files that can be opened with GreenFish Icon Editor.
 - `pythongen` Origins mod datapack generator script, it's pretty incomplete, just for someone with curiosity about what I was trying to do.
-- `Emoji stuff` Mess of datapack files that should go with Emojiful and similar mods, also a lists of servers that were fine with the modpack using their emotes
+- ~~`Emoji stuff` Mess of datapack files that should go with Emojiful and similar mods, also a lists of servers that were fine with the modpack using their emotes~~ Removed for containing large amounts of zip files
 - `PROMO` Silly assets used to hype this project, also some FancyMenu assets.
 - `lildim` Some idea of making a city dimension, but I wasn't convinced with the textures, also the world generation coding looked overwhelming.
 
